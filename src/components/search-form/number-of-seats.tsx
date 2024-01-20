@@ -37,7 +37,7 @@ const NumberOfSeats: FC = () => {
         handleClose()
     }
 
-    return <div style={{borderLeft: '1px solid #dedede', width: '30%'}}>
+    return <div style={{borderLeft: '1px solid #dedede', width: '40%'}}>
         <TextField
             onClick={handleOpen}
             variant="standard"

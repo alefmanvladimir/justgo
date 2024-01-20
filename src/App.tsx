@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FindWay from './components/search-form/search-from';
+import SearchForm from './components/search-form/search-from';
+import '@twa-dev/sdk';
 
 function App() {
   return (
     <div className="App">
-      <FindWay/>
+      <SearchForm/>
     </div>
   );
 }
